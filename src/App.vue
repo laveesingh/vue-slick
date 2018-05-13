@@ -1,28 +1,27 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <h2>Slider Component</h2>
+    <Slider>
+      <img src="https://images.pexels.com/photos/257360/pexels-photo-257360.jpeg" alt="nature">
+      <img src="http://images.all-free-download.com/images/graphiclarge/canoe_water_nature_221611.jpg" alt="nature">
+      <img src="https://images.pexels.com/photos/236047/pexels-photo-236047.jpeg" alt="nature">
+      <img src="https://images.pexels.com/photos/257360/pexels-photo-257360.jpeg" alt="nature">
+      <img src="http://images.all-free-download.com/images/graphiclarge/canoe_water_nature_221611.jpg" alt="nature">
+      <img src="https://images.pexels.com/photos/236047/pexels-photo-236047.jpeg" alt="nature">
+    </Slider>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Slider from './components/Slider.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
-  }
+    Slider,
+  },
 }
 </script>
 
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
 </style>

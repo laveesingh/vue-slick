@@ -20,4 +20,7 @@ rules:
   semi:
     - error
     - never
+  'vue/max-attributes-per-line': 3
   'vue/name-property-casing': 0
+  'no-console': 'off'
+
